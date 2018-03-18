@@ -1,0 +1,19 @@
+---
+declared-services:
+  my-conversation-service:
+    label: conversation
+    plan: free
+  camomile-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Lite
+applications:
+- name: nexweb-chatbot
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - wa-kaon-wcs
+  - nexweb-chatbot-rbs-cloudant
+  env:
+    NPM_CONFIG_PRODUCTION: false

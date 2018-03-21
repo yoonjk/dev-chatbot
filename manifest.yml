@@ -17,3 +17,5 @@ applications:
   - nexweb-chatbot-rbs-cloudant
   env:
     NPM_CONFIG_PRODUCTION: false
+    TELEGRAM_TOKEN: 589205223:AAFFfkucUfFvem15wGr9B8qhqsfR-FMHe-Y
+    PUBLIC_URL:  https://core.telegram.org/bots/api

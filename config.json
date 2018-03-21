@@ -5,5 +5,12 @@
     	"version" : "v1"
     },
 
-    "dateTimeFormat" : "HH:mm MM/DD/YYYY"
+    "dateTimeFormat" : "HH:mm MM/DD/YYYY",
+    "watson": {
+      "username": "899b1e92-c8d0-4aa7-9e03-5b4b412c0395",
+      "password": "m1OpTVfkTY74"
+    },
+    "telegram": {
+      "token": "589205223:AAFFfkucUfFvem15wGr9B8qhqsfR-FMHe-Y"
+    }
 }

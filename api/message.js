@@ -122,6 +122,9 @@ let doAction = (data, action) => {
       return confirmReservation(data, action);
       break;
     // 사용자의 예약 리스트를 가져옵니다.
+    case "hobby":
+      return checkReservation(data, action);
+      break;
     case "check-reservation":
       return checkReservation(data, action);
       break;

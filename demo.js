@@ -1,6 +1,8 @@
 
-const token = '589205223:AAFFfkucUfFvem15wGr9B8qhqsfR-FMHe-Y';
+const token = '589205223:AAGuMoqlLpZsuj3woK4nitGd82_Z9YUP9c4';
 const Promise = require('bluebird');
+const {getConversationResponse} = require('./api/message');
+
 Promise.config({
   cancellation: true
 });

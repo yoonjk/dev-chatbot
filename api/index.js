@@ -19,11 +19,11 @@
 console.log('APIs initialize');
 
 const conversation = require('./message');
-const telegram_bot = require('./telegram/message');
+//const telegram_bot = require('./telegram/message');
 //const telegram_scheduler = require('./telegram/cron');
 module.exports = {
     'initialize': (app, options) => {
         conversation.initialize(app, options);
-        telegram_bot.initialize(app, options);
+//        telegram_bot.initialize(app, options);
     }
 };
